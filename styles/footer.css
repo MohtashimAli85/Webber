@@ -52,6 +52,9 @@ footer section.updates .input .btn {
   background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
   border-radius: 0;
 }
+footer section.updates .input .btn img {
+  max-width: none;
+}
 
 @media screen and (min-width: 768px) {
   footer {
