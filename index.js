@@ -8,7 +8,6 @@ let nav = document.querySelector('nav'),
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('show');
     mobile_nav.classList.toggle('show');
-    body.classList.toggle('nomove');
 
 });
 window.addEventListener('resize', resizeChecker);
