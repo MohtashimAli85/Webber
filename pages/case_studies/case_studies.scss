@@ -1,0 +1,25 @@
+main {
+  section {
+    flex-basis: 100%;
+    a {
+      text-decoration: underline;
+      color: #0e7490;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    section {
+      flex-basis: 40%;
+      img {
+        max-width: 100%;
+      }
+    }
+    section:nth-child(odd) {
+      margin-top: 5rem;
+    }
+    section:nth-child(even) {
+      margin-top: -1rem;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+$cyna-blue: #1f2937;
+$bluish-cyan: #0e7490;
+$cyan: #cffafe;
+$black: #18181b;
+$ebony-clay: #1f2937;
+$baltic-sea: #27272a;
+$davy-grey: #52525b;
+$bondi-blue: #0891b2;
+$white-smoke: #f4f4f5;
+$dffdf: #2a2a88;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  overflow-x: hidden;
+}
+.faqs {
+  .faq {
+    flex-basis: 100%;
+  }
+}
+section.trial {
+  background: linear-gradient(
+    274.03deg,
+    #06b6d4 0%,
+    #0e7490 0.01%,
+    #0284c7 100%
+  );
+}
+@media screen and (min-width: 1040px) {
+  .faqs {
+    .faq {
+      flex-basis: 44%;
+    }
+  }
+}

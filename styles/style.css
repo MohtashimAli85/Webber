@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.desktop-container {
+  text-align: center;
+  position: relative;
+  height: 40vh;
+}
+.desktop-container .bg-blue {
+  height: 100px;
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+}
+.desktop-container .hero {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 1.3rem;
+  top: 20px;
+}
+.desktop-container .hero-img {
+  width: 100%;
+  height: auto;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+main {
+  margin: calc(100% - 15rem) 0 0;
+}
+main section {
+  padding: 1rem;
+  margin: 7rem 0;
+}
+main section h1 {
+  text-align: center;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+main section.features .cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+main section.features .cards-container .card {
+  text-align: center;
+  flex: 0 0 65%;
+}
+main section.features .cards-container .card h3 {
+  margin: 1.3rem 0;
+  color: #27272a;
+}
+main section.features .cards-container .card p {
+  padding: 0 1rem;
+  color: #52525b;
+}
+main section.features .cards-container .card img {
+  margin: 0 auto;
+}
+main section.works {
+  margin-bottom: 40rem;
+}
+main section.works .text h2 {
+  color: #1f2937;
+  margin: 1rem 0;
+  font-weight: 800;
+}
+main section.works .text p {
+  color: #52525b;
+}
+main section.works .text .btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+main section.works .text .btns .primary-btn {
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+}
+main section.works .text .btns .arrows {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main section.works .text .btns .arrows .arrow {
+  cursor: pointer;
+}
+main section.works .text .btns .right-arrow {
+  background: #0891b2;
+  padding: 1rem;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+}
+main section.works .graphics {
+  margin: 3rem 0;
+  position: relative;
+  text-align: center;
+}
+main section.works .graphics img {
+  width: 80%;
+  height: auto;
+}
+main section.works .graphics .phone {
+  width: 80%;
+  height: auto;
+  z-index: 1;
+}
+main section.works .graphics .pattern {
+  position: absolute;
+}
+main section.works .graphics .pattern1 {
+  z-index: -1;
+  top: 3rem;
+  right: -30px;
+}
+main section.works .graphics .pattern2 {
+  z-index: -1;
+  top: 24rem;
+  right: 0;
+}
+main section.works .graphics .pattern2 img {
+  width: 100%;
+}
+main .banner {
+  padding: 1rem;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+  color: white;
+}
+main .banner .user {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+main .banner .user h4 {
+  margin: 0.5rem 0;
+}
+main .banner .desc {
+  line-height: 28px;
+}
+main section.services ul {
+  display: flex;
+  flex-wrap: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+main section.services ul li {
+  flex: 0 0 80%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 80%;
+  text-align: center;
+}
+main section.services ul li img {
+  margin: 0 auto;
+}
+main section.numbers {
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+  color: #fff;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+main section.numbers h1 {
+  color: #fff;
+  margin: 2rem 0;
+}
+main section.numbers p {
+  padding: 0 1rem;
+}
+main .section-number {
+  transform: translateY(-10rem);
+}
+main .section-number .cards-container {
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.2rem;
+}
+main .section-number .cards-container .card {
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  flex: 0 0 75%;
+}
+main .section-number .cards-container .card h2 {
+  color: #27272a;
+  font-size: 3rem;
+  font-weight: 800;
+}
+main .section-number .cards-container .card p {
+  color: #52525b;
+  padding: 0.5rem 0 0;
+}
+main section.download {
+  text-align: center;
+}
+main section.download .btn {
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+  color: #fff;
+}

@@ -1,0 +1,75 @@
+footer {
+  background: #f4f4f5;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+footer section.intro {
+  flex-basis: 100%;
+}
+footer section.intro p {
+  margin: 1rem 0;
+  color: #52525b;
+  line-height: 30px;
+}
+footer section.intro ul {
+  display: flex;
+  gap: 2rem;
+}
+footer section.footer-links {
+  flex-basis: 50%;
+  margin: 1rem 0;
+}
+footer section.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: rem;
+  color: #27272a;
+}
+footer section.footer-links ul li {
+  margin-top: 1rem;
+}
+footer section.footer-links ul li a {
+  text-decoration: none;
+  color: #18181b;
+}
+footer section.updates h1 {
+  margin: 1rem 0;
+}
+footer section.updates .input {
+  display: flex;
+  margin-bottom: 1rem;
+}
+footer section.updates .input input {
+  border: none;
+  padding: 1rem 2rem;
+  background: #f4f4f5;
+}
+footer section.updates .input input::placeholder {
+  font-family: Mulish, sans-serif;
+}
+footer section.updates .input .btn {
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+  border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 2rem 5rem;
+    justify-content: space-between;
+  }
+  footer section.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 40%;
+  }
+  footer section.footer-links {
+    flex-basis: 15%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    flex-wrap: nowrap;
+  }
+}

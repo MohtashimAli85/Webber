@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  overflow-x: hidden;
+}
+
+.faqs .faq {
+  flex-basis: 100%;
+}
+
+section.trial {
+  background: linear-gradient(274.03deg, #06b6d4 0%, #0e7490 0.01%, #0284c7 100%);
+}
+
+@media screen and (min-width: 1040px) {
+  .faqs .faq {
+    flex-basis: 44%;
+  }
+}

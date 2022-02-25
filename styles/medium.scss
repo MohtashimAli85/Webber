@@ -1,0 +1,98 @@
+.btn {
+  font-size: 1.2rem;
+}
+
+.desktop-container {
+  .bg-blue {
+    height: calc(100% - 40px);
+    margin: 0 4rem;
+  }
+  .hero {
+    padding: 5rem;
+  }
+}
+main.main {
+  margin: 30rem 0 0;
+  section {
+    margin: 7rem 3rem;
+    h1 {
+      // font-size: 3rem;
+    }
+  }
+  section.features {
+    .cards-container {
+      gap: 3rem;
+      .card {
+        flex: 0 0 25%;
+        h3 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 1.05rem;
+        }
+      }
+    }
+  }
+  section.works {
+    margin-bottom: 10rem;
+    .work-container {
+      padding: 0 3rem;
+      display: flex;
+      .text {
+        flex: 0 0 60%;
+        margin-top: 8rem;
+        padding-right: 10rem;
+        h2 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+      .graphics {
+        width: 100%;
+        .phone-container {
+          right: 9rem;
+        }
+      }
+    }
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem 5rem;
+    .user {
+      flex: 0 0 20%;
+      margin: 0;
+      align-self: flex-end;
+    }
+    .desc {
+      display: flex;
+      flex: 0 0 55%;
+      svg {
+        flex: 0 0 5%;
+      }
+    }
+  }
+  section.services {
+    ul {
+      li {
+        flex: 0 0 20%;
+      }
+    }
+  }
+  .section-number {
+    .cards-container {
+      .card {
+        flex: 0 0 20%;
+        h2 {
+          font-size: 3rem;
+        }
+        p {
+          padding: 0.5rem 0 0;
+        }
+      }
+    }
+  }
+}
