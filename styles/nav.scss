@@ -54,7 +54,7 @@ $white-smoke: #f4f4f5;
 }
 body {
   font-family: "Mulish", sans-serif;
-  // overflow-x: hidden;
+  overflow-x: hidden;
   background: linear-gradient(
     180deg,
     rgba(165, 243, 252, 0.1) 23.31%,
@@ -66,7 +66,7 @@ nav {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   .logo-nav- {
     h3 {
       margin-top: 0.3rem;
