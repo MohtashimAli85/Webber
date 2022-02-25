@@ -52,6 +52,9 @@ $white-smoke: #f4f4f5;
   stroke-width: 3px;
   transition: transform 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Mulish", sans-serif;
   overflow-x: hidden;
