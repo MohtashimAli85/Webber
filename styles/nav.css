@@ -48,10 +48,6 @@ html {
   box-sizing: border-box;
 }
 
-.nomove {
-  overflow-y: hidden;
-}
-
 body {
   font-family: "Mulish", sans-serif;
   overflow-x: hidden;
