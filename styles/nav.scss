@@ -55,6 +55,11 @@ $white-smoke: #f4f4f5;
 html {
   overflow-x: hidden;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Mulish", sans-serif;
   overflow-x: hidden;
