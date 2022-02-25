@@ -65,6 +65,9 @@ footer {
           #0284c7 100%
         );
         border-radius: 0;
+        img {
+          max-width: none;
+        }
       }
     }
   }
